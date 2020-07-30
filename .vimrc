@@ -46,17 +46,8 @@ set autochdir
 " 捲動時保留底下 3 行。
 set scrolloff=3
 
-" 摺疊 Folding。
-set foldenable
-set foldmethod=indent
-set foldcolumn=1
-set foldlevel=5
-
-" 在 fish 裡相容 Vim 裡的 Neobundle。
-set shell=/bin/bash
-
-" 高亮當前行 (水平)。
+" highlight 當前行 (水平)。
 set cursorline
 
-" 高亮當前列 (垂直)。
+" highlight 當前列 (垂直)。
 "set cursorcolumn
