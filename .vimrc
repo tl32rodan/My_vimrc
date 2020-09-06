@@ -51,3 +51,6 @@ set cursorline
 
 " highlight 當前列 (垂直)。
 "set cursorcolumn
+
+" Set clipboard register
+set clipboard=unnamedplus
