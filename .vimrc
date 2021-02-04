@@ -13,7 +13,7 @@ set enc=utf8
 set hls
 
 " 只在 Normal 以及 Visual 模式使用滑鼠，也就是取消 Insert 模式的滑鼠，
-set mouse=nv
+set mouse=a
 
 " 顯示行號。
 set number
