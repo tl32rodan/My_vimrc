@@ -3,8 +3,9 @@ set ai
 " 啟用暗色背景模式。
 set background=dark
 
-" 啟用行游標提示。
+" 啟用行游標提示 ; 加強提示但不加底線
 set cursorline
+hi CursorLine term=bold cterm=bold guibg=Grey40
 
 " 文字編碼加入 utf8。
 set enc=utf8
@@ -19,6 +20,9 @@ set mouse=a
 set number
 " 按 <F2> 以開關行號
 nnoremap <F2> :set nonumber!<CR>
+
+" 按 <F4> 以開關反白
+nnoremap <F4> :nohl<CR>
 
 " 顯示相對行號。
 "set relativenumber
